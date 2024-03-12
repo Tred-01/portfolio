@@ -12,6 +12,6 @@ export default defineConfig({
       '@styles': fileURLToPath((new URL('./src/styles', import.meta.url))),
     }
   },
-  base: '/test/',
+  base: '/portfolio/',
   plugins: [react()],
 })
