@@ -4,8 +4,8 @@ import ExchangeApp from '@modules/exchangeApp/ExchangeApp'
 export default function RoutesPages () {
     return (
         <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path="/exchange" element={<ExchangeApp />}></Route>
+            <Route path='/test/' element={<Home />}></Route>
+            <Route path="/test/exchange" element={<ExchangeApp />}></Route>
         </Routes>
     )
 }

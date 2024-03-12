@@ -4,7 +4,6 @@ import axios from "axios";
 import Select from "react-select";
 import {selectOptions, colorsOptions} from "./optionsSelect";
 import moment from "moment";
-import { Link } from "react-router-dom";
 import IconArrow from '@assets/icons/IconArrow'
 
 const ExchangeApp = () => {
@@ -35,12 +34,11 @@ const ExchangeApp = () => {
     }, [amount, buy, sell])
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="exchange">
 
             <div className={styles.box}>
                 <header className={styles.head}>
                     <h2>Обмін валют</h2>
-                    <Link to='/'>Home</Link>
                 </header>
                 <main className={styles.content}>
                     <div className={styles.selectExchange}>

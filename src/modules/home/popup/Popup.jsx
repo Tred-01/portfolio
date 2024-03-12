@@ -4,11 +4,11 @@ import IconLocation from "@assets/icons/IconLocation"
 
 const Popup = ({onChange = () => {}}) => {
     return (
-        <div className="fixed top-0 left-0 right-0 h-full bg-slate-900/[.8] max-lg:px-8">
+        <div className="fixed top-0 left-0 right-0 h-full bg-slate-900/[.8] max-lg:px-8 z-10">
             <div className="bg-black/[0.8]  m-auto w-1/2 relative top-1/2 translate-y-[-50%] rounded-2xl p-12 max-lg:w-full">
                 <div className="mb-5 border border-slate-500/[.6] p-5 rounded-lg flex items-center justify-between max-lg:flex-col">
                     <IconEmail width={'4em'} color={'rgb(34,197,94)'}/>
-                    <a href="mailto: za.bussiness@gmail.com" target="_blank" className="block text-2xl hover:text-blue-600 max-lg:text-base max-lg:mt-4 max-lg:text-blue-600"> zx.bussiness@gmail.com</a>
+                    <a href="mailto: zx.bussiness@gmail.com" target="_blank" className="block text-2xl hover:text-blue-600 max-lg:text-base max-lg:mt-4 max-lg:text-blue-600"> zx.bussiness@gmail.com</a>
                 </div>
                 <div className="border mb-5 border-slate-500/[.6] p-5 rounded-lg flex items-center justify-between max-lg:flex-col">
                     <IconTelegram width={'4em'} color={'rgb(34,197,94)'}/>
@@ -22,7 +22,7 @@ const Popup = ({onChange = () => {}}) => {
                     rounded-full bg-[#1d1d1d]/[.4] font-normal  
                     transition hover:text-black  hover:bg-white">
                         Закрити
-                </button>                
+                </button>
             </div>
         </div>
     )

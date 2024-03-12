@@ -1,5 +1,5 @@
 .container {
-    @apply my-10 px-10;
+    @apply py-5 px-[100px] max-sm:px-5;
     .box {
         @apply w-full rounded-2xl p-5 text-xl;
         background: linear-gradient(45deg, rgba(white, .1), rgba(white, .04));
