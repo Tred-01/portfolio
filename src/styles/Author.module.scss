@@ -1,0 +1,26 @@
+.profile {
+    position: sticky;
+    top: 60px;
+    @apply w-80 border border-slate-500/[.2]  py-5 
+    rounded-l-[35px] max-xl:w-full max-xl:rounded-l-[0] max-xl:rounded-t-[35px];
+    background: linear-gradient(125deg, rgba(white, .1), rgba(white, .04));
+    
+    .profileBox {
+        @apply max-xl:flex max-xl:items-center;
+    }
+    .profileImg {
+        @apply rounded-3xl p-8 mx-8 mt-4 bg-[#e2e1e5] h-56 max-xl:hidden ;
+    }
+    .profileInfo {
+        @apply text-center border-b border-slate-500/[.5]  py-6 max-xl:border-none max-xl:w-full;
+        
+    }
+    .profileBtn {
+        @apply mt-5 flex items-center max-xl:w-full;
+        .btn {
+            @apply m-auto py-2 px-8 text-lg border border-slate-500/[.5] 
+            rounded-2xl bg-[#1d1d1d]/[.4] font-normal  
+            transition hover:bg-white/[.2] hover:text-white max-xl:px-12;
+        }
+    }
+}

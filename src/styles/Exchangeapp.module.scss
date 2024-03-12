@@ -1,0 +1,49 @@
+.container {
+    @apply my-10 px-10;
+    .box {
+        @apply w-full rounded-2xl p-5 text-xl;
+        background: linear-gradient(45deg, rgba(white, .1), rgba(white, .04));
+        .head {
+            @apply flex justify-between;
+            a {
+                @apply text-blue-600;
+            }
+        }
+        .content {
+            .selectExchange {
+                @apply mt-5 flex justify-between items-end gap-x-4 max-sm:flex-col max-sm:items-center;
+                .icon {
+                    @apply mb-3 max-sm:mb-0 max-sm:mt-6 rotate-90;
+                }
+                .sell, .buy {
+                    span {
+                        @apply inline-block mb-2 text-base;
+                    }
+                    @apply w-1/2 max-sm:w-full;
+                }
+            }
+            .exchangeInpt {
+                @apply mt-4;
+                span {
+                    @apply inline-block mb-2 text-base;
+                }
+                input {
+                    @apply w-full outline-none px-4 py-2 text-base rounded-lg max-sm:text-center;
+                }
+                button {
+                    @apply w-full text-base rounded-lg border border-white/[.2]
+                        mt-4 py-2 transition hover:bg-white/[.2];
+                }
+            }
+            .exchangeResult {
+               
+                .resultInfo {
+                    @apply mt-3 flex flex-col gap-y-2 text-base;
+                    span {
+                        @apply inline-block;
+                    }
+                }
+            }
+        }
+    }
+}

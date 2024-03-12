@@ -1,0 +1,11 @@
+.box {
+    @apply mb-2 first:rounded-tr-[35px] max-xl:first:rounded-none;
+    background: linear-gradient(45deg, rgba(white, .1), rgba(white, .04));
+ 
+    .skillBox {
+        @apply w-max py-5 px-8 border border-slate-500/[.2] flex items-center justify-center gap-8 rounded-md text-lg;
+        flex-grow: 1;
+
+    }
+
+}

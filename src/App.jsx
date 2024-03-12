@@ -1,12 +1,14 @@
-import RoutesPages from "./routes/routes"
+import React from 'react';
+import RoutesPages from './routes/routes';
+
 function App() {
 
- 
-    return (
-      <>
-        <RoutesPages />
-      </>
-    )
+  return (
+    <>
+      <h1>Hello</h1>
+    </>
+  )
 }
 
-export default App
+export default App;
+
