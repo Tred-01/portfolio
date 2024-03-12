@@ -1,3 +1,4 @@
+@import "./styles/app.module.scss";
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,7 +40,4 @@
 
 .read-the-docs {
   color: #888;
-}
-h1 {
-  color: blue;
 }
